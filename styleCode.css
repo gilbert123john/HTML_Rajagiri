@@ -1,0 +1,43 @@
+p{
+    font-size: 20px;
+    
+    }
+body{
+    text-align: center;
+    color: azure;
+}
+h1{
+    font-style: italic;
+    size: 30px;
+    color: azure;
+    }
+form{
+    margin-left: 1cm;
+}
+input{
+    margin-left: 5cm;
+}
+
+.split {
+        height: 100%;
+        width: 50%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        overflow-x: hidden;
+        padding-top: 20px;
+      }
+.counterSplit {
+        height: 100%;
+        width: 50%;
+        position: fixed;
+        z-index: 1;
+        top: 40;
+        overflow-x: hidden;
+        padding-top: 50px;
+        
+      }
+.propertyForm{
+    text-align: left;
+    color: azure;
+}
