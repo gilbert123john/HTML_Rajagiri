@@ -12,10 +12,15 @@ h1{
     color: azure;
     }
 form{
-    margin-left: 1cm;
+    
+    margin-left: 8cm;
 }
 input{
-    margin-left: 5cm;
+    /* margin-left: 5cm; */
+    width: 300px; 
+}
+label{
+    display: block;
 }
 
 .split {

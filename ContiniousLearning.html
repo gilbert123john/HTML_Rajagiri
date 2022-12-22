@@ -1,26 +1,68 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>
-            Registration Page
-        </title>
-        <link rel="stylesheet" type="text/css" href="styleCode.css">  
-    </head>
-    <body background="Resources/registrationBG.jpg">
-        |<div class="split">
-            <h1>Register for Online Examination</h1>
-            <form class="propertyForm">
-                <div class="counterSplit">
-                <label for="fname">Full Name:</label>
-                <input type="text" id="fname" name="fname"><br>
-                <label for="rNo">Registration Number:</label>
-                <input type="text" id="rNo" name="rNo"><br>
-                <label for="dob">DOB:</label>
-                <input type="date" id="dob" name="dob"><br>
-            </div>
-            </form>
+  <head>
+    <title>Registration Page</title>
+    <link rel="stylesheet" type="text/css" href="styleCode.css" />
+  </head>
+  <body background="Resources/registrationBG.jpg">
+    |
+    <div class="split">
+      <h1>Register for Online Examination</h1>
+      <form class="propertyForm">
+        <div class="counterSplit">
+        <div>
+          <label for="fname">Full Name:</label>
+          <input type="text" id="fname" name="fname" /><br /></div>
+          <div>
+          <label for="rNo">Registration Number:</label>
+          <input type="text" id="rNo" name="rNo" /><br /></div>
+          <div>
+          <label for="dob">DOB:</label>
+          <input type="date" id="dob" name="dob" /><br />
         </div>
         
-
-    </body>
+          Email:<br>
+          <input
+            type="email"
+            name="Email"
+            placeholder="enter valid email..."
+          /><br />
+        
+          Phone No:<br>
+          <input
+            type="Text"
+            name="Email"
+            placeholder="enter Phone No..."
+          /><br />
+          <label for="Gender">Gender:</label>
+          Male:<input
+            type="radio"
+            id="radioB"
+            name="fav_language"
+            value="Male"
+          />
+        
+          
+          Female:<input
+            type="radio"
+            id="radioB1"
+            name="fav_language"
+            value="Female"
+          />
+          <br />
+        
+          <label for="Language">Language:</label>
+          Malayalam:
+          <input type="checkbox" id="mal" name="lang" value="Male" />
+           English:<input
+            type="checkbox"
+            id="eng"
+            name="lang"
+            value="English"
+          /><br />
+          <input class="blue" type="submit" value="Submit" />
+        </div>
+      </form>
+    </div>
+  </body>
 </html>
