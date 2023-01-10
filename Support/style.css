@@ -1,0 +1,22 @@
+#pic-iphone {
+  height: 450px;
+  width: 376px;
+}
+table {
+  line-height: 1.5;
+}
+th {
+  text-align: left;
+}
+.container {
+  /* position: relative; */
+  background-image: url(iphone13a.png);
+  width: 370px;
+  height: 450px;
+}
+.container:hover {
+  /* opacity: 0.1; */
+
+  background-image: url(iphone13White.png);
+  position: relative;
+}
